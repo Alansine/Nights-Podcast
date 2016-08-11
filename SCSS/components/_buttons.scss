@@ -1,0 +1,46 @@
+.main-button {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size:25px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    color:$primary-color;
+    -webkt-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.main-button:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.post-button {
+    background-color: aliceblue;
+    color:black;
+    height: 20px;
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    margin:{
+        top: 10px;
+        bottom:10px;
+    }
+    display:block;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.social-button {
+    display:block;
+    text-align: center;
+    margin: 20px;
+    -webkt-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 100%;
+}
+
+.social-button:hover {
+    opacity: 0.5; 
+}

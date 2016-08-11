@@ -1,0 +1,104 @@
+@import "helpers/colors";
+@import "components/dividers";
+@import "components/buttons";
+
+html {
+    background-image: url(http://www.spgenergy.com/blog/wp-content/uploads/2014/01/Starry-Night-Sky.jpg);
+}
+
+.header {
+    color:$primary-color;
+    height: 1.5in;
+    width: auto;
+    min-width: 6in;
+    background-color: $header-color;
+    margin : {
+        top:-16px;
+        left:-7px;
+        right:10px;
+    }
+    border : {
+        bottom-right-radius: 60px; 
+    }
+    .logo {
+        color:$primary-color;
+        text-decoration: none;
+        font-family: Harrington;
+        font-size: 120px;
+        margin:{
+            left:50px;
+            top: 0px;
+        }
+        display: inline-block;
+    }
+    .header_blurb {
+        position:absolute;
+        display: inline-block;
+        vertical-align: bottom;
+        text-align:right;
+        font-family:Helvetica;
+        font-size: 25px;
+        width:3.5in;
+        margin : {
+            top:    65px;
+            right:  50px;
+            left: 30px;
+        }
+    }
+}
+
+.sidebar {
+    margin : {
+        top:0px;
+        left: -7px;
+        bottom: 15px;
+    }
+    padding : {
+        bottom: 20px
+    }
+    width:2in;
+    border: {
+        bottom-right-radius: 60px
+    }
+    background-color:$header-color;
+    display:inline-block;
+}
+
+.content {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 6in;
+    width:auto;
+    max-width: 10in;
+    color:aliceblue;
+    margin : {
+        left: 40px;
+        top: 50px;
+        right: 20px;
+    }
+    .top-button {
+        font-family: Helvetica;
+        font-size: 20px;
+        bottom: 40px;
+        position: fixed;
+        text-decoration: none;
+        text-align: right;
+        color:aliceblue;
+        width: 40%;
+        max-width: 6in;
+    }
+    .post {
+        background-color:$header-color;
+        color:$primary-color;
+        padding: 10px 40px 20px 40px;
+        border-radius: 20px;
+        h3 {
+            font-family: Garamond;
+        }
+        p {
+            font-family: Helvetica;
+        }
+    }
+}
+

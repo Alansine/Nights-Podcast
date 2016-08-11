@@ -1,0 +1,22 @@
+.sidebar-divider {
+    background-color:$primary-color;
+    height: 4px;
+    border-radius: 100%;
+    width: 1.5in;
+    margin: 0 auto;
+}
+
+.content-divider {
+    background-color:$primary-color;
+    height: 4px;
+    border-radius: 100%;
+    width: 6in;
+    display: block;
+    text-align: center;
+    margin: {
+        top: 50px;
+        bottom: 50px;
+        left: auto;
+        right: auto;
+    }
+}
